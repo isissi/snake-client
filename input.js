@@ -1,4 +1,5 @@
 let connection;
+const { KEYS } = require("./constants");
 
 const setupInput = function (conn) {
   connection = conn;
@@ -15,23 +16,8 @@ const handleUserInput = function (key) {
     console.log("Thanks for playing, ciao!");
     process.exit();
   } 
-  
-  if (key === "a") {
-    connection.write("Move: left");
-  } else if (key === "s") {
-    connection.write("Move: down");
-  } else if (key === "d") {
-    connection.write("Move: right");
-  } else if (key === "w") {
-    connection.write("Move: up");
-  }
 
-  if (key === "h") {
-    connection.write('Say: Hello');
-  } else if (key === "b") {
-    connection.write('Say: Bye');
-  }
-
+  connection.write(KEYS[key]);
 };
 
 
