@@ -1,4 +1,4 @@
-const IP = "localhost";
+const IP = "192.168.50.70";
 const PORT = 50541;
 
 const KEYS = {
@@ -7,7 +7,7 @@ const KEYS = {
   s: "Move: down",
   w: "Move: up",
   h: "Say: Hello",
-  b: "Say: Bye"
+  b: "Say: Bye",
 };
 
 module.exports = { IP, PORT, KEYS };
