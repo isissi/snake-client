@@ -2,7 +2,7 @@ const IP = "localhost";
 const PORT = 50541;
 
 const KEYS = {
-  a: "Move: up",
+  a: "Move: left",
   d: "Move: right",
   s: "Move: down",
   w: "Move: up",
