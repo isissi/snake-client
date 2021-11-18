@@ -1,4 +1,4 @@
-const IP = "192.168.50.70";
+const IP = "localhost";
 const PORT = 50541;
 
 const KEYS = {
