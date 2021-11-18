@@ -14,7 +14,7 @@ Before you can run this client, you will need to be running the server side whic
 - Run the development snake client using the `node play.js` command.
 
 
-#Goal
+## Goal
 
 - The snake will grow 1 px longer when eating the piece. 
 
